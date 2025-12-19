@@ -181,3 +181,35 @@ footer a {
     color: black;
     margin-left: 10px;
 }
+
+/*============dark mode=================*/
+body.dark {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+body.dark header,
+body.dark main {
+    background-color: #2a2a2a;
+}
+
+body.dark nav a {
+    color: #f1f1f1;
+}
+
+body.dark .gallery-item {
+    background-color: #3a3a3a;
+}
+
+body.dark .gallery-item p {
+    background-color: #000;
+}
+
+#darkToggle {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
