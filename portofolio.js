@@ -1,5 +1,5 @@
 const toggle = document.getElementById("darkToggle");
 
-toggle.addEventListener("click", () => {
+toggle.addEventListener("change", () => {
     document.body.classList.toggle("dark");
 });
